@@ -1,4 +1,7 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
+# Vidushi's Homepage Website
+Based on the Bootstrap website template (see below).
+
+# Original README
 
 [Resume](https://startbootstrap.com/theme/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
