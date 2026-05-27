@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Vidushi Toshniwal's Homepage
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -17,6 +17,7 @@ html(lang='en')
 
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
 
         // Core theme CSS (includes Bootstrap)
@@ -27,9 +28,9 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Vidushi Toshniwal
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpeg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -41,9 +42,9 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                        a.nav-link.js-scroll-trigger(href='#courses') Courses
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#Publications and talks') Research
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
 
@@ -54,24 +55,41 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                        | Vidushi
+                        span.text-primary Toshniwal
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
+                        | Department of Geoscience and Geo-Engineering · TU Delft, NL
                     p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | I am pursuing my Ph.D. under the supervision of 
+                        a(href='https://www.tudelft.nl/en/staff/m.a.hicks/', target='_blank') Prof. Dr. Michael Hicks
+                        | , 
+                        a(href='https://www.tudelft.nl/en/staff/w.broere/', target='_blank') Dr.ir. Wout Broere
+                        | , and 
+                        a(href='https://www.tudelft.nl/en/staff/a.c.dieudonne/', target='_blank') Dr.ir. Anne-Catherine Dieudonné
+                        | . My research focuses on geomechanics, particularly the time-dependent hydro-mechanical behavior of geomaterials in context of deep geological disposal of high-level radioactive waste.
+                        br
+                        br
+                        | My research interests lie at the intersection of computational methods and experimental soil behavior, with practical applications. I have gained valuable research experiences at 
+                        a(href='https://www.purdue.edu/', target='_blank') Purdue University
+                        |  and 
+                        a(href='https://www.rowan.edu/', target='_blank') Rowan University
+                        |  in the USA and 
+                        a(href='https://www.uni-hannover.de/', target='_blank') Leibniz University, Hannover
+                        | , DE. I have also been fortunate to gain industry experience through internship at 
+                        a(href='https://en.wikipedia.org/wiki/SLB', target='_blank') Schlumberger
+                        | , India.
+                        br
+                        br
+                        | I come from Kota, a city widely known as an education hub in India. My academic journey began with a dual degree from 
+                        a(href='https://home.iitd.ac.in/') IIT Delhi
+                        |  with bachelors in Civil engineering and masters in Geotechnical and Geo-environmental engineering. My master's thesis focused on study of offshore monopile foundations behavior under cyclic loading. Apart from soils, theatre and painting excites me! I also enjoy engaging in community service activities and contributing to graduate school organisations through various leadership roles.
                     .social-icons
-                        a.social-icon(href='#!')
+                        a.social-icon(href='mailto:vtoshniwal@tudelft.nl', target='_blank')
+                            i.fas.fa-envelope
+                        a.social-icon(href='https://www.linkedin.com/in/vidushi-toshniwal-553b96156/', target='_blank')
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://scholar.google.com/citations?user=L1odBRkAAAAJ&hl=en', target='_blank')
                             i.fas.fa-graduation-cap
-                        a.social-icon(href='#!')
-                            i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
 
             hr.m-0
 
@@ -123,130 +141,148 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Education
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h4.mb-0 Delft University of Technology, The Netherlands
+                            .subheading.mb-3 Ph.D. in Geo-Engineering
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary September 2023 - Present
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h4.mb-0 Indian Institute of Technology, Delhi
+                            .subheading.mb-3 Master of Technology in Geotechnical and Geoenvironmental Engineering
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary August 2020 - July 2022
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            h4.mb-0 Indian Institute of Technology, Delhi
+                            .subheading.mb-3 Bachelor of Technology in Civil Engineering
+                        .flex-shrink-0
+                            span.text-primary July 2016 - July 2020
 
             hr.m-0
 
-            // Skills
-            section#skills.resume-section
+            // Courses
+            section#courses.resume-section
                 .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
+                    h2.mb-5 Courses
+                    .subheading.mb-3 Relevant courses done
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Mobile-First, Responsive Design
+                            | Plasticity theory
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Browser Testing & Debugging
+                            | Finite element method
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Cross Functional Teams
+                            | Continuum mechanics
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Agile Development & Scrum
+                            | Tunnel design in PLAXIS 2D and 3D
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Numerical methods in geomechanics
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Machine learning application in porous media
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Advanced foundation engineering
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Engineering behaviour of soils
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Geoenvironmental engineering
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Mechanics of solids
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Ground improvement and geosynthetics
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Soil dynamics and Earthquake geotechnical engineering
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Slopes and retaining structures
 
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
+            // Research
+            section#('Publications and talks').resume-section
                 .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                    h2.mb-5 Publications and talks
+                    // Publications 
+                    .subheading.mb-3 Publications
+                    ul
+                        li
+                            | Author Name, "Paper Title," Conference/Journal, Year.
+                        li
+                            | Author Name, "Another Paper," Conference/Journal, Year.
+                    // Conference Presentations 
+                    .subheading.mb-3.mt-5 Conference Presentations
+                    ul
+                        li
+                            | "Geotechnical clay core characterisation for deep geological disposal of radioactive waste in the Netherlands," Clay Conference, Hannover, DE, 2024.
+                        li
+                            | "Coupled hydro-mechanical analysis of host formation behaviour upon excavation of a deep geological disposal facility ," EURO-TUN, Vienna, Austria, 2025.
 
             hr.m-0
 
             // Awards
             section#awards.resume-section
                 .resume-section-content
-                    h2.mb-5 Awards & Certifications
+                    h2.mb-5 Awards & Recognitions
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
+                            | Gerald and Beryl Leonards Fellowship (Purdue University)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
+                            | Abhinav Dhupar Memorial Award (Convocation, IIT Delhi)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                            | Rajeev Gandhi Scholarship (State Gov. of Rajasthan, India)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                            | DAAD KOSPIE SCHOLARSHIP (Leibniz University, Hannover, Germany)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                            | Outstanding Contribution to Cultural Activities (IIT Delhi)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
+                            | Best Mentor, Board of Student Welfare (IIT Delhi)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+                            | Outstanding Contribution to NSS (IIT Delhi)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | National Talent Search Examination (NTSE) Scholar (Gov. of India)
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
