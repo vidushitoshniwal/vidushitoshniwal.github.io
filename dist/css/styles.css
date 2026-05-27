@@ -5797,6 +5797,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  background-color: #212529;
 }
 .carousel-inner::after {
   display: block;
@@ -5983,7 +5984,7 @@ textarea.form-control-lg {
 #gallery .carousel-item img {
   min-height: 320px;
   max-height: 420px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #gallery .carousel-caption {
